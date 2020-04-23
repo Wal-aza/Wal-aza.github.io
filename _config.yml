@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "Walaza Nguluwe"
   avatar           : "/assets/images/profile/shisha.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : #"I am an **amazing** person."
   location         : "Huddersfield, UK"
   email            :
   links:
@@ -286,3 +286,10 @@ defaults:
       comments: true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single

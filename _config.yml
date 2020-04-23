@@ -63,25 +63,27 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "V3T0OyPZwAJUe9B_BbHFtI0JgosuebX0sd9MorelAq8"
+google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "WalazaNguluwe"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/teaser/codescript.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/WalazaNguluwe"
+    - "https://www.linkedin.com/in/walaza-nguluwe-3b9056a6/"
 
 # Analytics
 analytics:
